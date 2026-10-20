@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>لعبة النقر</title>
+<style>
+body{text-align:center;font-family:Arial;background:#111;color:#fff;margin-top:50px}
+button{font-size:30px;padding:20px 40px;background:gold;border:none;border-radius:15px}
+</style>
+</head>
+<body>
+<h1>لعبة النقر السريع</h1>
+<h2>النقاط: <span id="s">0</span></h2>
+<button onclick="x()">انقر هنا</button>
+<script>
+let n=0;
+function x(){n++;document.getElementById('s').innerText=n;}
+</script>
+</body>
+</html>
